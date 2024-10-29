@@ -81,6 +81,13 @@
         font-size: 1.2rem;
     }
 
+    /* responsivo modelos index */
+
+    section.modelos {
+      background-attachment:scroll;
+    
+    }
+
 
 
 
