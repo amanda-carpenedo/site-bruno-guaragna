@@ -1,0 +1,363 @@
+@media screen and (max-width: 1339px) {
+
+    /* responsivo hero */
+    section.hero-site {
+        height: 98vh;
+        background: url(../images/capa.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+    }
+
+    /* responsivo sobre */
+
+    .sobre {
+        padding: 10px;
+    }
+
+    .sobre .itens-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 10px;
+
+    }
+
+    .sobre .itens-container .img-itens img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .sobre .itens-container .txt-itens h2 {
+        line-height: 3rem;
+    }
+
+    .sobre .itens-container .txt-itens p {
+        margin-bottom: 20px;
+    }
+
+    .sobre .itens-container .item-1 {
+        order: 1;
+    }
+
+    .sobre .itens-container .item-2 {
+        order: 0;
+    }
+
+    /* responsivo história */
+
+    .historia .itens-container-historia {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .historia .itens-container-historia .img-itens-historia img {
+        width: 100%;
+    }
+
+    .historia .itens-container-historia .txt-itens-historia h2 {
+        font-size: 1.6em;
+        line-height: 1.2em;
+    }
+
+    .historia .itens-container-historia .txt-itens-historia .citacao {
+        text-align: center;
+        font-size: 0.9em;
+
+    }
+
+    .historia .itens-container-historia .txt-itens-historia .citacao span {
+        display: block;
+        text-align: end;
+    }
+
+
+    /* responsivo modelo 1 */
+
+    .hero-modelos .txt-modelo-um ul {
+        padding-left: 30px;
+    }
+
+    .hero-modelos .txt-modelo-um ul li {
+        font-size: 1.2rem;
+    }
+
+
+    @media screen and (max-width: 1145px) {
+
+        /* responsivo opcionais */
+
+        .txt-opcionais,
+        .modelos-opcionais {
+            display: block;
+            width: 100%;
+        }
+
+        .opcionais .txt-opcionais {
+            position: static;
+            margin-bottom: 20px;
+        }
+
+        /* responsivo modelo 1 */
+
+        .img-modelos {
+            justify-content: center;
+        }
+
+    }
+
+
+
+    @media screen and (max-width: 1090px) {
+        /* responsivo contato */
+
+        .txt-contato,
+        .icons-contato {
+            display: block;
+            width: 100%;
+        }
+
+
+        .contato .txt-contato h3 {
+            font-size: 2rem;
+        }
+
+        .contato .txt-contato {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+
+        .contato .icons-contato button {
+            width: 60%;
+        }
+
+
+        /* responsivo galeria */
+
+        .galeria .img-galeria {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            flex-wrap: wrap;
+        }
+
+        .galeria .img-galeria img {
+            width: 300px;
+            height: 335px;
+            margin: 10px;
+        }
+
+        /* responsivo opcionais */
+
+
+        .img-opcionais {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px 0;
+        }
+
+
+        .hero-opcionais .img-opcionais img {
+            max-width: 250px;
+            max-height: 350px;
+            border-radius: 10px;
+            transition: .3s;
+        }
+
+
+        .hero-opcionais .img-opcionais .img-case {
+            max-width: 350px;
+            height: 250px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 1092px) {
+
+        /* cabeçalho responsivo */
+        header .menu-desktop,
+        header .btn-contato {
+            display: none;
+        }
+
+        header .btn-menu-mob {
+            display: block;
+        }
+
+    }
+
+
+    @media screen and (max-width: 800px) {
+        /* responsivo opcionais */
+
+        .hero-opcionais .titulo-opcionais {
+            text-align: center;
+            text-shadow: 1px 1px 6px black;
+            line-height: 3.5rem;
+        }
+
+        .hero-opcionais .titulo-opcionais h3 {
+            font-size: 3.4rem;
+        }
+
+        .hero-opcionais .txt-opcionais h3 {
+            padding: 30px 0 20px;
+            font-size: 1.7rem;
+        }
+
+    }
+
+
+    @media screen and (max-width: 772px) {
+        /* responsivo vídeos */
+
+        .videos .itens-container-videos .container-videos {
+            gap: 20px;
+        }
+
+        .videos .itens-container-videos .container-videos iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+
+    }
+
+
+    @media screen and (max-width: 690px) {
+
+        .hero-modelos .titulo-modelo h3 {
+            font-size: 3.4rem;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 3.5rem;
+
+        }
+
+        .hero-modelos .titulo-modelo h4 {
+            font-size: 2rem;
+        }
+
+    }
+
+
+    @media screen and (max-width: 590px) {
+
+        /* estilo modelos */
+
+        .modelos .interface .btn-modelos {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modelos .interface {
+            text-align: center;
+        }
+
+        .modelos h3 {
+            font-size: 2.5rem;
+            line-height: 2.8rem;
+        }
+
+        .modelos p {
+            font-size: 1rem;
+        }
+
+        /* responsivo contato */
+
+        .contato .icons-contato button {
+            width: 90%;
+        }
+
+        /* responsivo galeria */
+
+        .galeria .img-galeria img {
+            width: 100%;
+            height: 335px;
+        }
+
+        /* responsivo dos opcionais */
+        .hero-opcionais .txt-opcionais h3 {
+            padding: 20px 15px;
+            font-size: 1.5rem;
+            line-height: 1.9rem;
+        }
+
+        .hero-opcionais .txt-opcionais p {
+            padding: 0px 15px 20px;
+
+            font-size: 1.1rem;
+        }
+
+        .hero-opcionais .img-opcionais {
+            padding: 0 0 60px 0;
+        }
+
+
+        .hero-opcionais .img-opcionais .img-case {
+            max-width: 300px;
+            height: 200px;
+        }
+
+        /* responsivo modelos violões */
+        .hero-modelos .txt-modelo-um a {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+
+    }
+
+    @media screen and (max-width: 391px) {
+        /* estilo logo */
+
+        header .logo img {
+            max-width: 150px;
+        }
+
+        /* estilo titulo modelo */
+
+        .modelos h3 {
+            font-size: 2.4rem;
+        }
+
+        .modelos p {
+            font-size: 0.9rem;
+        }
+
+        .modelos button {
+            font-size: 0.9rem;
+        }
+
+        /* responsivo titulo opcionais */
+
+        .opcionais .txt-opcionais p {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            text-align: center;
+        }
+
+        .modelos-opcionais .modelos-opcionais-box p {
+            font-size: 0.9rem;
+            text-align: justify;
+        }
+
+        .modelos-opcionais .modelos-opcionais-box .txt-opcionais-box a {
+            text-align: center;
+        }
+
+
+
+
+
+    }
+
+}
