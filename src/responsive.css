@@ -84,10 +84,9 @@
     /* responsivo modelos index */
 
     section.modelos {
-      background-attachment:scroll;
-    
-    }
+        background-attachment: scroll;
 
+    }
 
 
 
@@ -135,9 +134,12 @@
             margin-bottom: 25px;
         }
 
-
-        .contato .icons-contato button {
-            width: 60%;
+      
+        .contato .icons-contato a{
+            width: 90%;
+           padding: 0 35px;
+            
+           
         }
 
 

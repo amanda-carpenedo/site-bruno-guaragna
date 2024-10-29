@@ -260,7 +260,7 @@ section.contato {
     color: #000000;
 }
 
-.contato .icons-contato button {
+.contato .icons-contato a {
     display: flex;
     width: 60%;
     height: 60px;
@@ -275,17 +275,17 @@ section.contato {
 
 }
 
-.contato .icons-contato button i {
+.contato .icons-contato a i {
     font-size: 20px;
 
 }
 
-.contato .icons-contato button:hover {
+.contato .icons-contato a:hover {
     background-color: #000000;
 }
 
-.contato .icons-contato button:hover i,
-.contato .icons-contato button:hover p {
+.contato .icons-contato a:hover i,
+.contato .icons-contato a:hover p {
     color: white;
 }
 
