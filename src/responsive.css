@@ -118,12 +118,16 @@
     @media screen and (max-width: 1090px) {
         /* responsivo contato */
 
-        .txt-contato,
-        .icons-contato {
-            display: block;
-            width: 100%;
+
+        .contato .interface {
+            flex-direction: column;
+
         }
 
+        .icons-contato {
+            flex-direction: column;
+            width: 60%;
+        }
 
         .contato .txt-contato h3 {
             font-size: 2rem;
@@ -134,12 +138,11 @@
             margin-bottom: 25px;
         }
 
-      
-        .contato .icons-contato a{
+
+        .contato .icons-contato a {
             width: 90%;
-           padding: 0 35px;
-            
-           
+            padding: 0 35px;
+
         }
 
 
@@ -252,6 +255,12 @@
 
         .hero-modelos .titulo-modelo h4 {
             font-size: 2rem;
+        }
+
+        /* responsivo contatos */
+        .icons-contato {
+            width: 100%;
+
         }
 
     }
