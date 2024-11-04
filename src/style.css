@@ -7,6 +7,8 @@ html {
     scroll-padding: 8.6rem;
 }
 
+
+
 /* Cabeçalho */
 
 .interface {
@@ -43,6 +45,7 @@ header.rolar {
     box-shadow: 0 0 8px rgba(3, 3, 3, 0.736);
     z-index: 999;
 }
+
 
 /* ------------------------- */
 
@@ -85,6 +88,8 @@ header .btn-contato button:hover {
     transition: 0.5s;
 }
 
+
+
 /* estilo botao do menu mobile  */
 header .btn-menu-mob {
     display: none;
@@ -117,6 +122,8 @@ header .btn-menu-mob .line-menumob-2.ativo2 {
 header .btn-menu-mob .line-menumob-3.ativo3 {
     display: none;
 }
+
+
 
 /* estilo menu mobile */
 
@@ -225,6 +232,8 @@ section.hero-site {
     font-weight: 600;
 }
 
+
+
 /* estilos contato */
 
 
@@ -291,6 +300,8 @@ section.contato {
     color: white;
 }
 
+
+
 /* estilo modelos */
 
 section.modelos {
@@ -352,6 +363,12 @@ section.modelos {
     color: hsl(0, 0%, 0%);
     transition: 0.5s;
 }
+
+.modelos .btn-modelos span {
+    font-weight: 600;
+}
+
+
 
 /* estilo opcionais */
 
@@ -453,6 +470,8 @@ footer .bottom-footer p {
     font-size: 0.8rem;
 }
 
+
+
 /* MODELOS */
 
 section.hero-modelos {
@@ -489,6 +508,10 @@ section.hero-modelos {
     padding: 10px;
 }
 
+
+.hero-modelos .titulo-modelo h4 span {
+    font-weight: 600;
+}
 
 .hero-modelos .txt-modelo-um h3 {
     padding: 40px 0 30px;
@@ -540,6 +563,9 @@ section.hero-modelos {
 .hero-modelos .img-modelos img:hover {
     transform: scale(1.08);
 }
+
+
+
 
 /* história */
 
@@ -689,6 +715,8 @@ section.videos {
 }
 
 
+
+
 /* galeria */
 section.galeria {
     height: 98vh;
@@ -732,6 +760,8 @@ section.galeria {
 .galeria .img-galeria img:hover {
     transform: scale(1.08);
 }
+
+
 
 
 /* hero opcionais */
@@ -781,6 +811,9 @@ section.hero-opcionais {
     font-size: 1.2rem;
 }
 
+.hero-opcionais .txt-opcionais p span {
+    font-weight: 600;
+}
 
 .img-opcionais {
     display: flex;

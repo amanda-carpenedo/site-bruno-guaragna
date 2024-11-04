@@ -162,8 +162,8 @@
             margin: 10px;
         }
 
-        /* responsivo opcionais */
 
+        /* responsivo opcionais */
 
         .img-opcionais {
             display: flex;
@@ -372,10 +372,6 @@
         .modelos-opcionais .modelos-opcionais-box .txt-opcionais-box a {
             text-align: center;
         }
-
-
-
-
 
     }
 
